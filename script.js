@@ -54,3 +54,19 @@ function addj() {
     contact = document.getElementById("email").value;
     addJob(job, price, contact);
 }
+
+
+function oninit(){
+    for (let i =0; i++; i=10){
+        addJob(Painter, int(math.random*10)+30, "abc@gmail.com")
+    }
+    
+    for (let i =0; i++; i=10){
+        addJob(Writer, int(math.random*10)+30, "abc@gmail.com")
+    }
+    
+    for (let i =0; i++; i=10){
+        addJob(Volunteer, int(math.random*10)+30, "abc@gmail.com")
+    }
+    
+}
