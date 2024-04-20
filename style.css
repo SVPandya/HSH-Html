@@ -1,13 +1,102 @@
 body{
     font-family: Roboto;
+    margin: 2%;
 }
 
 #description{
-    width: 30%;
+    width: 50%;
 }
 
 h1{
     font-weight: 900;
     font-size: 300%;
     color: #03fc8c;
+}
+
+img{
+    width: 40%;
+    /* margin-right: 10%; */
+    /* margin-left: 50%; */
+}
+
+h2{
+    padding: 5%;
+}
+
+p{
+    padding: 5%;
+}
+
+
+
+.space{
+    height: 10px;
+    margin: none;
+    padding: 0px;
+}
+
+
+input{
+    display: block;
+    width: 30%;
+    height: 30px;
+    
+    margin: auto;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+
+
+
+#card{
+    background-color: rgb(194, 217, 217);
+    border-radius: 2%;
+    width: 30%;
+    height: 30%;
+}
+
+.navbuttons {
+    margin-top: 1px;
+    /* margin-left: 20px; */
+    margin-right: 18px;
+    font-size: large;
+    color:black;
+}
+
+
+#card{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+#intro{
+    display: inline-block;
+    padding-right: 30px;
+}
+
+
+
+.landingcont {
+    margin-left: 8px;
+}
+
+.navbar{
+    margin-top: 3px;
+    justify-content: start;
+}
+
+#homebtn {
+    color:#03fc8c;
+    font-weight: bolder;
+}
+
+#addH1{
+    margin: auto;
+    text-align: center;
+}
+
+#addDes{
+    margin: auto;
+    text-align: center;
 }
