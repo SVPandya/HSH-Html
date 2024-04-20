@@ -47,3 +47,10 @@ function getJob(name){
         }
     }
 }
+
+function addj() {
+    price = document.getElementById("priceval").value;
+    job = document.getElementById("jobdesc").value;
+    contact = document.getElementById("email").value;
+    addJob(job, price, contact);
+}

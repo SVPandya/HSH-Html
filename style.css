@@ -104,3 +104,10 @@ input{
 #homebtn {
     color:#03fc8c;
 }
+
+#submitjob {
+    margin-top: 24px;
+    font-size: x-large;
+    color:#03fc8c;
+    background: #05430e;
+}
