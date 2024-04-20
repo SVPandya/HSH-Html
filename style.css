@@ -1,0 +1,13 @@
+body{
+    font-family: Roboto;
+}
+
+#description{
+    width: 30%;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 300%;
+    color: #03fc8c;
+}
