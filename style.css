@@ -45,6 +45,15 @@ input{
     border-radius: 5px;
     padding: 30px;
 }
+button{
+    display: block;
+    width: 30%;
+    height: 30px;
+    
+    margin: auto;
+    border-radius: 5px;
+    padding: 30px;
+}
 
 
 

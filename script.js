@@ -41,7 +41,7 @@ function addJob(name, price, contact){
 }
 
 function getJob(name){
-    for (i in jobs){
+    for (let i in jobs){
         if (name === jobs.name){
             return i;
         }
@@ -50,9 +50,11 @@ function getJob(name){
 
 function addj() {
     price = document.getElementById("priceval").value;
-    job = document.getElementById("jobdesc").value;
+    job = document.getElementById("taskdesc").value;
     contact = document.getElementById("email").value;
     addJob(job, price, contact);
+
+    console.log(price, job, contact)
 }
 
 
